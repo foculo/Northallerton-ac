@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact - Northallerton AC</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><div class="container header-inner"><a href="index.html" class="logo"><img src="logo.svg" alt="Northallerton AC"></a><nav class="site-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="domestic.html">Domestic</a><a href="commercial.html">Commercial</a><a href="projects.html">Projects</a><a href="contact.html" class="cta">Contact</a></nav><button class="nav-toggle">☰</button></div></header>
+<main class="container" style="padding:28px 0">
+  <h1 style="color:var(--primary)">Contact & Request a Quote</h1>
+  <p style="color:var(--muted)">Use the form or call to arrange a free site survey.</p>
+  <div class="contact-grid" style="margin-top:12px">
+    <div class="form-card">
+      <form id="contact-form">
+        <label for="name">Full name *</label>
+        <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #ddd">
+        <label for="email" style="margin-top:8px;display:block">Email *</label>
+        <input id="email" name="email" type="email" required style="width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #ddd">
+        <label for="phone" style="margin-top:8px;display:block">Phone</label>
+        <input id="phone" name="phone" type="text" style="width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #ddd">
+        <label for="service" style="margin-top:8px;display:block">Service</label>
+        <select id="service" name="service" style="width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #ddd"><option>Installation</option><option>Maintenance</option><option>Repair</option><option>Other</option></select>
+        <label for="message" style="margin-top:8px;display:block">Message *</label>
+        <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #ddd"></textarea>
+        <p style="margin-top:10px"><button type="submit" class="btn">Send request</button></p>
+      </form>
+    </div>
+    <aside class="card">
+      <h3 style="margin-top:0;color:var(--primary)">Company details</h3>
+      <div style="color:var(--muted)">Northallerton AC<br>47 South Parade<br>Northallerton DL7 8SG</div>
+      <div style="margin-top:10px">Email: <a href="mailto:hello@northallertonac.co.uk">hello@northallertonac.co.uk</a></div>
+      <div style="margin-top:6px">Phone: <a href="tel:+441862000000">01865 000000</a></div>
+      <div style="margin-top:12px"><iframe width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps?q=47+South+Parade+DL7+8SG+Northallerton&output=embed"></iframe></div>
+    </aside>
+  </div>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><div class="footer-col">47 South Parade, Northallerton DL7 8SG</div><div class="footer-col">hello@northallertonac.co.uk</div><div class="footer-col"><a href="tel:+441862000000">01865 000000</a></div></div></footer>
+<script src="script.js"></script></body></html>
