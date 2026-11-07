@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="110" viewBox="0 0 720 220" role="img" aria-label="Northallerton AC logo">
-  <defs>
-    <linearGradient id="g1" x1="0" x2="1">
-      <stop offset="0" stop-color="#0A6B61"/>
-      <stop offset="1" stop-color="#197F77"/>
-    </linearGradient>
-  </defs>
-  <rect width="720" height="220" rx="20" fill="none"/>
-  <g transform="translate(36,24)">
-    <polygon points="56,18 124,62 0,62" fill="url(#g1)"/>
-    <rect x="12" y="62" width="96" height="60" rx="8" fill="url(#g1)"/>
-    <rect x="38" y="84" width="22" height="36" rx="4" fill="#fff"/>
-  </g>
-  <g transform="translate(260,48)">
-    <text x="0" y="36" font-family="Segoe UI, Roboto, Arial" font-size="44" font-weight="700" fill="#0A6B61">Northallerton</text>
-    <text x="0" y="96" font-family="Segoe UI, Roboto, Arial" font-size="64" font-weight="800" fill="#FF7A18">AC</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Northallerton AC mark</title>
+  <desc id="desc">A white N monogram with turquoise airflow lines on a navy field.</desc>
+  <rect width="64" height="64" rx="2" fill="#102d3a"/>
+  <path d="M13 48V17h7l23 23V17h8v31h-7L21 25v23z" fill="#fff"/>
+  <path d="M8 12c6-4 12-4 18 0M37 12c6-4 12-4 18 0" fill="none" stroke="#39c5bd" stroke-linecap="round" stroke-width="2.6"/>
+  <path d="M46 53h9" fill="none" stroke="#39c5bd" stroke-linecap="round" stroke-width="2.6"/>
 </svg>
